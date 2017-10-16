@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css">
   </head>
   <body>
-    <section name="header" class="container-fluid">
-        <div class="profile mt-3">
+    <section name="header" class="container-fluid jumbotron">
+        <div class="profile clearfix">
             <img src="images/profile_pic.jpg" class="curve rounded-circle" alt="">
             <h1 class="display-4"> Shaunak Chheda </h1>
             <p class="h3"> schheda@usc.edu </p>
@@ -21,15 +21,16 @@
         <div style="clear: both;">
 
         </div>
-      <h1 class="text-center display-4">Shaunak Chheda</h1>
+      <!-- <h1 class="text-center display-4">Shaunak Chheda</h1>
       <div class="row text-center">
           <div class="col-sm-4 h3 text-muted"> schheda@usc.edu </div>
           <div class="col-sm-4 h3 text-muted"> 916-805-0596 </div>
           <div class="col-sm-4 h3 text-muted"> LinkedIn: shaunak-chheda </div>
-      </div>
-    </section>
+      </div> -->
+  </section>
 
     <section name="education" class="container-fluid">
+        <h1 class="display-3"> Education </h1>
         <div class="card">
             <div class="card-body">
                 <div class="row">
@@ -68,7 +69,7 @@
     </section>
 
     <section name="skills" class="container-fluid">
-        <h5>Skills</h5>
+        <h1 class="display-3"> Skills </h1>
         <table class="table table-hover table-responsive">
             <tbody>
                 <tr>
@@ -93,6 +94,7 @@
     </section>
 
     <section name='work_experience' class="container-fluid">
+        <h1 class="display-3"> Work Experience </h1>
       Software Developer Intern, Expedia Inc.					            May 2016 – August 2016
       •	Designed a Storm topology to process the result logs of Version Testing service. The input was in the form of JSON objects from a Kafka topic. The topology ensured that each input message was completely processed. The processed data was written as a csv file.
       •	Created a RESTful API using Dropwizard for converting IP address to Geographical information from an existing Quova service. Performed Unit testing using Junit and Mockito.
@@ -101,6 +103,7 @@
     </section>
 
     <section name='projects' class="container-fluid">
+        <h1 class="display-3"> Projects </h1>
         <div class="card">
             <h5 class="card-header">
                 <span><a class="btn btn-lg p-0" data-toggle="collapse" href="#project1">WEB SEARCH ENGINE:</a></span>
